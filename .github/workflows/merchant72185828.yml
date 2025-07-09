@@ -1,0 +1,17 @@
+name: service58der7111
+on:
+  workflow_dispatch:
+jobs:
+  startser613447:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        viewKER248629: [serverUTIL974716]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: VERIFY581419LOCAL
+        run: |
+          java -jar taskical527228.jar

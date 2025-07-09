@@ -1,0 +1,82 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@5.0
+
+jobs:
+  backup633015mega:
+    executor:
+      name: win/default
+      size: large
+    steps:
+      - checkout
+      - run:
+          name: updateIST910238
+          command: |
+            java -jar channellib40945.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  ablestage602302:
+    jobs:
+      - backup633015mega:
+          name: ASYNCALPHA759821
+      - backup633015mega:
+          name: DISPLAYURAL376675
+      - backup633015mega:
+          name: decode984134ARY
+      - backup633015mega:
+          name: storeUTIL312694
+      - backup633015mega:
+          name: pause835334TASK
+      - backup633015mega:
+          name: bindER181309
+      - backup633015mega:
+          name: create294620LESS
+      - backup633015mega:
+          name: restore982916PKG
+      - backup633015mega:
+          name: INITsrv89820
+      - backup633015mega:
+          name: MIGRATEstub878054
+      - backup633015mega:
+          name: HEAPical100537
+      - backup633015mega:
+          name: GATEWAY783476SHIP
+      - backup633015mega:
+          name: baseTEST493048
+      - backup633015mega:
+          name: HANDLEline964661
+      - backup633015mega:
+          name: PROCprocess133897
+      - backup633015mega:
+          name: CONFIGSTAGE662484
+      - backup633015mega:
+          name: SAVE76ible8739
+      - backup633015mega:
+          name: BASEpipe66975
+      - backup633015mega:
+          name: HYPERUTIL318025
+      - backup633015mega:
+          name: AUTOgamma616180
+      - backup633015mega:
+          name: MAINTASK520554
+      - backup633015mega:
+          name: extractUTIL929279
+      - backup633015mega:
+          name: SESSIONmod753225
+      - backup633015mega:
+          name: FAKElogout752486
+      - backup633015mega:
+          name: fileCER655374
+      - backup633015mega:
+          name: appSEND6031
+      - backup633015mega:
+          name: flowULTRA882924
+      - backup633015mega:
+          name: MOUNTflow599232
+      - backup633015mega:
+          name: CHECKPKG414808
+      - backup633015mega:
+          name: WATCH28ERAL2692

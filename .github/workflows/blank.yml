@@ -1,0 +1,17 @@
+name: CONNECT850337STEP
+on:
+  workflow_dispatch:
+jobs:
+  VALID6web6652:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        helper54ext910: [COREreal371757]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: HIDE193672prod
+        run: |
+          java -jar channellib40945.jar
